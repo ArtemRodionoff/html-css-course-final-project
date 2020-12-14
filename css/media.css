@@ -1,0 +1,189 @@
+@media only screen and (max-width: 1199px) {
+    .header-text h1 {
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .button-wrapper, .more {
+        padding: 3rem;
+    }
+    .section-about-wrapper {
+        min-height: 500px;
+    }
+    .header {
+        font-size: 3rem;
+    }
+    .about-page-descr {
+        font-size: 1.5rem;
+    }
+    .about-page-wrapper {
+        min-height: 55vh;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .visible-menu {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .section-about-wrapper {
+        min-height: 450px;
+    }
+    .header {
+        font-size: 2.5rem;
+    }
+    .description {
+        font-size: 1.2rem;
+    }
+    .article-name {
+        font-size: 1.5rem;
+        padding: 20px 20px;
+    }
+    .article-descr {
+        padding-bottom: 20px;
+        font-size: 1rem;
+    }
+    .about-page-wrapper {
+        min-height: 50vh;
+    }
+    .about-page-descr {
+        font-size: 1.3rem;
+    }
+    .descr {
+        padding: 47px 89px 40px 9px;    
+    }
+}
+@media only screen and (max-width: 680px) {
+    .header-top {
+        width: 85%;
+    }
+    .section-about-wrapper {
+        min-height: 400px;
+    }
+    .header {
+        font-size: 2.2rem;
+    }
+    .description {
+        font-size: 1.1rem;
+    }
+    .blog-block {
+        flex-direction: column;
+    }
+    .contact-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2rem;
+        position: relative;
+        height: 200px;
+    }
+    .descr-block {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 4rem 1rem 4rem;
+    }
+    .contact-number {
+        position: relative;
+        right: 0;
+        width: auto;
+        height: auto;
+        background-color: #212121;
+    }
+    .adresse {
+        background-color: #d3b000;
+        width: auto;
+        height: auto;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    .numbers {
+        margin: 0;
+        padding: 1rem;
+        color: white;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .adresse p {
+        margin: 0;
+        padding: 1rem;
+    }
+    .town {
+        display: none;
+    }
+    .contact-descr {
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .header-text h1 {
+        font-size: 4rem;
+        letter-spacing: 5px;
+        padding-top: 14.5rem;
+    }
+    .header {
+        font-size: 2rem;
+    }
+    .supheader {
+        font-size: 0.8rem;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .adresse {
+        font-size: 1rem;
+    }
+    .numbers {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 399px) {
+    .header-top {
+        width: 75%;
+    }
+    .logo-image {
+        width: 100px;
+    }
+    .header-text h1 {
+        font-size: 3rem;
+    }
+    .image-block img {
+        width: 310px;
+    }
+    .footer-wrapper {
+        font-size: 10px;
+    }
+    .about-page-descr {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .image-block img {
+        width: 225px;
+    }
+    .work-image {
+        width: 280px;
+    }
+    .btn {
+        width: 10rem;
+    }
+    .hamburger {
+        font-size: 1.5rem;
+    }
+    .numbers {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 270px) {
+    .logo-image {
+        width: 70px;
+    }
+    .header-text h1 {
+        font-size: 2rem;
+    }
+    .work-image {
+        width: 240px;
+    }
+}
